@@ -8,7 +8,7 @@
 
 #include "sweetie16.h"
 
-int fps = 2;
+int fps = 60;
 
 int sc;
 int dw, dh;
@@ -153,48 +153,48 @@ void drawScrollBar(SDL_Renderer *renderer, int x, int y, int w, int h, int ish)
 
 				if (ish == 1)
 				{
-						if (!holdh)
+					if (!holdh)
+					{
+						if (inrect(tx, ty, x + ox, y + oy, w, h))
 						{
-							if (inrect(tx, ty, x + ox, y + oy, w, h))
-							{
-								holdh = true;
-								tidh = touchId;
-								fidh = i;
-							}
+							holdh = true;
+							tidh = touchId;
+							fidh = i;
 						}
-						else
-						{
-							sbx = tx - ox;
-							if (sbx < 0)
-								sbx = 0;
-							if (sbx >= w - sbs)
-								sbx = w - sbs;
+					}
+					else
+					{
+						sbx = tx - ox;
+						if (sbx < 0)
+							sbx = 0;
+						if (sbx >= w - sbs)
+							sbx = w - sbs;
 
-							svh = (double)sbx / (w - sbs) * smh;
-						}
+						svh = (double)sbx / (w - sbs) * smh;
+					}
 				}
 				else
 				{
-						if (!holdv)
+					if (!holdv)
+					{
+						if (inrect(tx, ty, x + ox, y + oy, w, h))
 						{
-							if (inrect(tx, ty, x + ox, y + oy, w, h))
-							{
-								holdv = true;
-								tidv = touchId;
-								fidv = i;
-							}
-						}
-						else
-						{
-							sby = ty - oy;
-							if (sby < 0)
-								sby = 0;
-							if (sby >= h - sbs)
-								sby = h - sbs;
-
-							svv = (double)sby / (h - sbs) * smv;
+							holdv = true;
+							tidv = touchId;
+							fidv = i;
 						}
 					}
+					else
+					{
+						sby = ty - oy;
+						if (sby < 0)
+							sby = 0;
+						if (sby >= h - sbs)
+							sby = h - sbs;
+
+						svv = (double)sby / (h - sbs) * smv;
+					}
+				}
 			}
 		}
 	}
