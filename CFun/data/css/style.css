@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+	border-box: box-sizing;
 }
 
 html, body {
@@ -7,8 +8,20 @@ html, body {
   padding: 0;
 }
 
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
 table tr,th,td {
   text-align: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+table caption {
+  caption-side: bottom;
+  font-weight: bold;
 }
 
 .center {
@@ -21,28 +34,15 @@ table tr,th,td {
   text-indent: 2rem;
 }
 
-p {
-  text-align: justify;
-  margin: 10px;
-}
-
 .container {
   margin: 20px;
 }
 
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-table tr,th,td {
-  text-align: center;
-  border: 1px solid black;
-}
-
-table caption {
-  caption-side: bottom;
-  font-weight: bold;
+p {
+  text-align: justify;
+  margin: 10px;
+	white-space: pre-wrap;
+	word-break; break-all;
 }
 
 dl dt {
