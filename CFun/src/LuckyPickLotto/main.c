@@ -36,7 +36,7 @@ int main(void)
 	int a[m];
 
 	srand(time(NULL));
-	
+
 	printf("Lucky Pick Lotto 6/42\n");
 
 	fill(a, m);
