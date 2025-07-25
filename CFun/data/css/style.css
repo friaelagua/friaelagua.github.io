@@ -2,3 +2,7 @@
 	border-box: box-sizing;
   font-family: sans-serif;
 }
+
+code {
+  font-family: monospace;
+}
