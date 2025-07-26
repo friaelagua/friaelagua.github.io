@@ -15,18 +15,15 @@ int main() {
 
 	hour=info->tm_hour;
 
-	if (	(hour >= 21 && hour <= 23) ||
-		(hour >= 0 && hour <= 4)
-	) {
-		printf("Good Night!");
-	} else if (hour >= 5 && hour < 12) {
+	if (hour >= 5 && hour < 12) {
         printf("Good Morning!");
     } else if (hour >= 12 && hour < 17) {
         printf("Good Afternoon!");
-    } else if (hour >= 17 && hour < 21) {
+    } else if (
+    	(hour >= 17 && hour <=23) ||
+    	(hour >=  0 && hour <= 4)
+    ) {
         printf("Good Evening!");
-    } else {
-    	printf("Invalid Hour!");
     }
     printf("\n");
 
