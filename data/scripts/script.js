@@ -116,7 +116,7 @@ blockquote {
 
 function addMarkedJs() {
     var markedjs = document.createElement('script');
-    markedjs.setAttribute('src', 'https://cdn.jsdelivr.net/npm/marked/marked.min.js');
+    markedjs.setAttribute('src', '/data/scripts/marked.min.js');
     document.head.appendChild(markedjs);
     markedjs.addEventListener('load', convertMarkdownToHtml);
 }

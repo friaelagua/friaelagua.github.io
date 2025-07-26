@@ -17,10 +17,10 @@ int main() {
 
 	if (hour >= 5 && hour < 12) {
         printf("Good Morning!");
-    } else if (hour >= 12 && hour < 17) {
+    } else if (hour >= 12 && hour <= 17) {
         printf("Good Afternoon!");
     } else if (
-    	(hour >= 17 && hour <=23) ||
+    	(hour > 17 && hour <=23) ||
     	(hour >=  0 && hour <= 4)
     ) {
         printf("Good Evening!");
