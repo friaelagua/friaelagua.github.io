@@ -1,8 +1,6 @@
 <center>
 
-# Keyboard Input
-
-# Mouse Input
+# Input
 
 </center>
 
