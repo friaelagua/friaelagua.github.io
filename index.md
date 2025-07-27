@@ -1,2 +1,2 @@
-[C Fun](cfun/index.html)
+[C Fun](cfun/index.md)
 
