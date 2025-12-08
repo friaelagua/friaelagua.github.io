@@ -1,7 +1,0 @@
-<center>
-
-# Graphics
-
-</center>
-
-

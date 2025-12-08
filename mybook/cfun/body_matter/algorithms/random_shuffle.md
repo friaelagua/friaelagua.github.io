@@ -1,7 +1,0 @@
-<center>
-
-# Random Shuffle
-
-</center>
-
-

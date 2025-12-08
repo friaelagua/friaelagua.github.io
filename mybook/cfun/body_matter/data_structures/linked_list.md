@@ -1,7 +1,0 @@
-<center>
-
-# Linked List
-
-</center>
-
-

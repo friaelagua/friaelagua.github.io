@@ -1,7 +1,0 @@
-<center>
-
-# Conditional Statements
-
-</center>
-
-

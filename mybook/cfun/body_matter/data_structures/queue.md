@@ -1,7 +1,0 @@
-<center>
-
-# Queue
-
-</center>
-
-
