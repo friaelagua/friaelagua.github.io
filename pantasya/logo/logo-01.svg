@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500px" height="500px">
+
+  <rect x="0" y="0" width="100%" height="100%" fill="#ffffff" rx="25" />
+
+  <g transform="matrix(1.515228, 0, 0, 1.515228, -128.807007, -128.807007)">
+    <path d="M 350 250 C 350 305.228 305.228 350 250 350 C 194.772 350 150 305.228 150 250 C 150 194.772 194.772 150 250 150 C 305.228 150 350 194.772 350 250 Z M 250 175 C 208.579 175 175 208.579 175 250 C 175 291.421 208.579 325 250 325 C 291.421 325 325 291.421 325 250 C 325 208.579 291.421 175 250 175 Z" style="fill: rgb(0, 0, 128);"/>
+    <g>
+      <g transform="matrix(1, 0, 0, 1, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+      <g transform="matrix(0, 1, -1, 0, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+      <g transform="matrix(-1, 0, 0, -1, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+    </g>
+    <g style="transform-origin: 250px 250px;" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, -0.000001)">
+      <g transform="matrix(1, 0, 0, 1, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+      <g transform="matrix(0, 1, -1, 0, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+      <g transform="matrix(-1, 0, 0, -1, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, 0, 60)" style="transform-origin: 250px 190px;">
+        <path d="M 235 50 L 265 50 L 275 100 L 225 100 L 235 50 Z" style="fill: rgb(0, 0, 128);"/>
+      </g>
+    </g>
+  </g>
+  <g transform="matrix(8.75, 0, 0, 8.174387, 145, 160.476837)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#000080"/>
+  </g>
+</svg>
